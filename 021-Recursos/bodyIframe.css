@@ -1,0 +1,10 @@
+iframe {
+    background-color: rgb(139, 225, 11);
+    border: none; /* Opcional: elimina el marc de l'iframe */
+    height: 100%;
+    width: 100%;
+}
+ 
+body {
+    background-color: rgb(139, 225, 11);
+}

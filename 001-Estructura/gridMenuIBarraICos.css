@@ -1,0 +1,26 @@
+body { 
+    background-color: rgb(92, 146, 11);
+    display: grid;
+    grid-template-areas:
+    'menu menu'
+    'barra cos';
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 3fr;
+    height: 96vh;
+}
+
+.menu {
+    background-color: rgb(139, 225, 11);
+}
+
+.barra {
+    margin: 3% 1.6% 0% 0%;
+    height: 100%;
+    background-color: rgb(139, 225, 11);
+}
+
+.cos {
+    margin: 1% 0% 0% 0.6%;
+    height: 100%;
+    background-color: rgb(139, 225, 11);
+}

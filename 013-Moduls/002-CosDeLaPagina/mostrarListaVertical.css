@@ -1,0 +1,35 @@
+.imgConText {
+    position: relative;
+    display: inline-block;
+}
+
+.imgConText img {
+    display: block;
+}
+
+.text-sobre {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ListaElements{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+#Llista {
+    list-style-type: none; /* Elimina les bales */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el marge */
+}
+
+.imgConText {
+    margin-bottom: 10px; /* Espai entre imatges, ajusta segons calgui */
+}

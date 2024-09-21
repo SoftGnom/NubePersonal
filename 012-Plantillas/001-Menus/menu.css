@@ -1,0 +1,27 @@
+#menuComplet { 
+    background-color: rgb(139, 225, 11);
+    display: grid;
+    grid-template-areas:
+    'PaginaWeb UnaPaginaIndividual PartatDeLaWeb';
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ 
+.menu{
+   list-style-type: none; /* Elimina els punts */
+   padding: 0; /* Elimina el padding per defecte */
+   margin: 0; /* Elimina el marge per defecte */
+}
+
+#PaginaWeb{
+   display: grid;
+   grid-template-areas:
+   'index dades';
+   grid-template-columns: 1fr 1fr;
+}
+
+#PartatDeLaWeb{
+   display: grid;
+   grid-template-areas:
+   'dades cercador visualitzar';
+   grid-template-columns: 1fr 1fr 1fr;
+}

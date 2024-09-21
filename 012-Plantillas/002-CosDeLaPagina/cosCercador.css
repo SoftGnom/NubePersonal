@@ -1,0 +1,22 @@
+#cosCercador{
+   display: grid;
+   grid-template-areas: 
+   'barraCercar'
+   'resultatCrecar';
+   grid-template-rows: auto 1fr;
+   height: 100%; /* Ocupa el 100% de l'alçada de la vista */
+   box-sizing: border-box; /* Assegura que el padding i el border no augmentin l'alçada */
+   background-color: rgb(92, 146, 11);
+}
+
+iframe{
+   box-sizing: border-box; /* Assegura que el padding i el border no augmentin l'ample o l'alçada */
+}
+
+#barraCerca {
+   margin: 0% 0% 0.5% 0%;
+}
+
+#mostrarResultatCerca {
+   margin: 0.5% 0% 0% 0%;
+}
